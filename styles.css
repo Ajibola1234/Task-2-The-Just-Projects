@@ -1,0 +1,29 @@
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+header {
+    
+    text-align: center;
+    line-height: 8px;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 4px;
+
+}
+
+.center {
+   text-align: center;
+   
+   
+}
+
+.center ol {
+    display: inline-block;
+}
+footer {
+    text-align: center;
+}

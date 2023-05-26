@@ -1,0 +1,28 @@
+body {
+    font-weight: 400;
+    text-align: center;
+}
+
+table,th,td {
+    margin: auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px 20px;
+
+}
+
+h1 {
+    font-family: 'Roboto Mono', monospace;
+}
+
+thead {
+    font-family: 'Share Tech Mono', monospace;
+}
+
+tbody {
+    font-family: 'Inter', sans-serif;
+}
+
+
+
+
