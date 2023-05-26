@@ -6,38 +6,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About Us</title>
     <link rel="shortcut icon" href="favicon.jpg" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="about.css" />
   </head>
   <body>
     <header>
       <img src="tjp.png" alt="logo" />
+      <h2>About Us - The Just Projects</h2>
+      <p class="p1">We learn by doing</p>
     </header>
     <section>
-      <h2>About Us - The Just Projects</h2>
-      <p>We learn by doing</p>
       <hr />
-      <div>
+      <div class="classabout">
         <h3>What are some suggestions from The Just Projects?</h3>
-        <ol type="i">
-          <li>Interact with your collegues and don't miss team discussions.</li>
-          <li>Always feel free to ask your mentors for help when stuck.</li>
-          <li>Get confident and improve on your googling skills.</li>
-          <li>
-            Turn on slack notifications so you don't miss important
-            informations.
-          </li>
-        </ol>
+        <div class="center2">
+          <ol type="i">
+            <li>
+              Interact with your collegues and don't miss team discussions.
+            </li>
+            <li>Always feel free to ask your mentors for help when stuck.</li>
+            <li>Get confident and improve on your googling skills.</li>
+            <li>
+              Turn on slack notifications so you don't miss important
+              informations.
+            </li>
+          </ol>
+        </div>
+
         <hr />
       </div>
       <footer>
-        <p>Do you want to go back to the <a href="index.html">Home Page?</a></p>
+        <p class="lastparagraph">
+          Do you want to go back to the
+          <a class="indexlink" href="index.html">Home Page?</a>
+        </p>
         <p>No? Then you can go and sign up or log in.</p>
-        <input type="button" value="get started" />
-
-        <input
-          type="button"
-          value="Table Task"
-          onclick="window.location.href = 'table.html';"
-        />
+        <input type="button" value="Get Started" />
+        <a class="link" href="table.html">Table Task</a>
       </footer>
     </section>
   </body>
