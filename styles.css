@@ -81,8 +81,10 @@ input {
     background-color: blueviolet;
     border-radius: 30px;
     color: white;
+    margin-top: 1%;
 }
 
 .indexlink{
     text-decoration: none;
+   
 }

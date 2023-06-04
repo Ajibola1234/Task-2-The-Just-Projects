@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Halant:wght@500;600;700&family=Manrope:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+form {
+    width: 70%;
+    height: 690px;
+    background: #FFFFFF;
+    margin: 10% auto;
+    padding-left: 100px;
+
+}
+
+h3{
+    padding-top: 30px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    letter-spacing: 0.005em;
+    color: #000000;
+    margin-bottom: 3%;
+    font-family: 'Halant', serif;
+}
+
+
+.name{
+font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 24px;
+   
+    /* identical to box height, or 75% */
+
+
+    color: #000000;
+    font-family: 'Halant', serif;
+    
+    
+}
+
+.nameinput{
+    width: 250px;
+    height: 35px;
+    border: 1px solid #828282;
+    border-radius: 4px;
+    margin-left: 178px;
+    color: #797979;
+    font-family: 'Manrope', sans-serif;
+}
+
+::placeholder {
+    padding-left: 3%;
+    color: #797979;
+    font-family: 'Manrope', sans-serif;
+
+}
+
+.username{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 24px;
+    color: #000000;
+    font-family: 'Halant', serif;
+    
+    
+}
+
+.nameinput2{
+    width: 250px;
+    height: 35px;
+    border: 1px solid #828282;
+    border-radius: 4px;
+    margin-left: 120px;
+    color: #797979;
+    font-family: 'Manrope', sans-serif;
+}
+
+.div2 {
+    margin-top: 2.5%;
+}
+
+.div3{
+    margin-top: 2.5%;
+}
+
+.password{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 24px;
+    color: #000000;
+    font-family: 'Halant', serif;
+}
+
+.inputpassword{
+    width: 250px;
+    height: 35px;
+    border: 1px solid #828282;
+    border-radius: 4px;
+    margin-left: 129px;
+    color: #797979;
+    font-family: 'Manrope', sans-serif;
+}
+
+.inputpassword2{
+    width: 250px;
+    height: 35px;
+    border: 1px solid #828282;
+    border-radius: 4px;
+    margin-left: 9px;
+    color: #797979;
+    font-family: 'Manrope', sans-serif;
+}
+
+.p1{
+    display: inline;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 24px;
+    color: #000000;
+    font-family: 'Halant', serif;
+}
+
+.radioinput{
+    display:inline;
+    margin-left: 169px;
+    font-family: 'Manrope', sans-serif;
+}
+
+.radiomale1{
+    
+    height: 50%;
+    font-family: 'Manrope', sans-serif;
+    /* width: 200px; */
+}
+.radiomale2{
+    font-size: 20px;
+    margin-left: 1px;
+    margin-right: 10px;
+    line-height: 24px;
+    color: #000000;
+    font-family: 'Manrope', sans-serif;
+}
+
+.radiofemale2{
+    font-size: 20px;
+    line-height: 24px;
+    color:#000000;
+    margin-left: 1.5px;
+    font-family: 'Manrope', sans-serif;
+}
+
+#female{
+    border: 1px solid #828282;
+}
+
+#male{
+    border: 1px solid #828282;
+}
+
+.inputcheckbox{
+    display: inline;
+    margin-left: 97px;
+    font-family: 'Manrope', sans-serif;
+}
+
+.phonenumber{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 24px;
+    color: #000000;
+    font-family: 'Halant', serif;
+
+}
+.inputphone{
+    width: 250px;
+    height: 35px;
+    border: 1px solid #828282;
+    border-radius: 4px;
+    margin-left: 50px;
+    color: #797979;
+    font-family: 'Manrope', sans-serif;
+}
+
+.inputemail{
+    width: 250px;
+    height: 35px;
+    border: 1px solid #828282;
+    border-radius: 4px;
+    margin-left: 179px;
+    color: #797979;
+    font-family: 'Manrope', sans-serif;
+}
+
+.inputselect{
+    width: 250px;
+    height: 35px;
+    border: 1px solid #828282;
+    border-radius: 4px;
+    margin-left: 160px;
+    color: #797979;
+    font-family: 'Manrope', sans-serif;
+}
+
+button{
+   margin-left: 270px; 
+   width:250px;
+   height: 35px;
+   cursor: pointer;
+background: #155EEF;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    font-family: 'Manrope', sans-serif;
+
+}
+
+.divbutton{
+    margin-top: 1.5%;
+}
+
+.lastparagraph{
+    text-align: center;
+    text-decoration: none;
+    margin-top: 2%;
+}
+
+.indexlink {
+text-decoration: none;
+
+}
+
+
+
+
+
+

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+    <link rel="shortcut icon" href="favicon.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="form.css" />
+  </head>
+  <body>
+    <form action="">
+      <div>
+        <h3>Contact Form</h3>
+      </div>
+      <div class="div1">
+        <label class="name" for="name"
+          >Name:
+          <input
+            class="nameinput"
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Enter your Name"
+            required
+        /></label>
+      </div>
+      <div class="div2">
+        <label class="username" for="username"
+          >Username:
+          <input
+            class="nameinput2"
+            type="text"
+            name="username"
+            id="username"
+            placeholder="Enter your username"
+            required
+        /></label>
+      </div>
+      <div class="div3">
+        <label class="password" for="password"
+          >Password:
+          <input
+            class="inputpassword"
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Enter your Password"
+            required
+        /></label>
+      </div>
+      <div class="div3">
+        <label class="password" for="password"
+          >Re-type Password:
+          <input
+            class="inputpassword2"
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Enter your Password"
+            required
+        /></label>
+      </div>
+      <div class="div3">
+        <p class="p1">Gender:</p>
+        <div class="radioinput">
+          <input
+            class="radiomale1"
+            type="radio"
+            id="male"
+            name="gender"
+            value="male"
+            required
+          />
+
+          <label class="radiomale2" for="male">Male</label>
+          <input
+            class="radiofemale1"
+            type="radio"
+            id="female"
+            name="gender"
+            value="female"
+            required
+          />
+          <label class="radiofemale2" for="female">Female</label>
+        </div>
+      </div>
+      <div class="div3">
+        <p class="p1">Techie Skills:</p>
+        <div class="inputcheckbox">
+          <input
+            type="checkbox"
+            name="tech skills"
+            id="html"
+            value="html"
+            required
+          />
+          <label class="radiomale2" for="html">HTML</label>
+          <input
+            type="checkbox"
+            name="tech skils"
+            id="css"
+            value="css"
+            required
+          />
+          <label class="radiomale2" for="css">CSS</label>
+          <input
+            type="checkbox"
+            name="tech skils"
+            id="javascript"
+            value="css"
+            required
+          />
+          <label class="radiomale2" for="javascript">JavaScript</label>
+        </div>
+      </div>
+
+      <div class="div3">
+        <label class="phonenumber" for="phone number"
+          >Phone Number:
+          <input
+            class="inputphone"
+            type="number"
+            name="phone number"
+            id="phone number"
+            placeholder="Enter your address"
+            required
+        /></label>
+      </div>
+
+      <div class="div3">
+        <label class="username" for="email"
+          >Email:
+          <input
+            class="inputemail"
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter your Email address"
+            required
+        /></label>
+      </div>
+      <div class="div3">
+        <label class="username" for="college">College:</label>
+        <select class="inputselect" name="college" id="college">
+          <option value="DHMS">dhms</option>
+          <option value="css">css</option>
+        </select>
+      </div>
+
+      <div class="divbutton">
+        <button>Submit</button>
+      </div>
+      <p class="lastparagraph">
+        Return back to <a  class="indexlink" href="index.html">Home Page?</a> or
+        <a class="indexlink" href="About us.html">About us</a>
+      </p>
+    </form>
+  </body>
+</html>
